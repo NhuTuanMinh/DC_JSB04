@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_link {
+    display: flex;
+}
+
+.list_link li {
+    list-style: none;
+    padding: 15px;
+}
+
+#iconSearch {
+    width: 32px;
+    height: 32px;
+    padding-right: 15px;
+}
+
+.list_link li:hover {
+    background-color: antiquewhite;
+    color: brown;
+
+}
+
+
+.title {
+    text-align: center;
+text-align: initial;
+}
+
+.mini_title {
+    font-style: italic;
+    text-align: center;
+}
+
+.content {
+    width: 700px;
+    margin: auto;
+}

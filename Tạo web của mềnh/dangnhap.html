@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,500;1,300;1,400&family=Quicksand:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            height: 495px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .box {
+            width: 500px;
+            background-color: rgb(192, 216, 238);
+            padding: 30px 15px;
+            border-radius: 15px;
+            border: 1px solid;
+            box-shadow: 5px 10px 8px -3px #93dd8c;
+        }
+        h1 {
+            padding-top: 30px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-family: 'Tinos', serif;
+        }
+        input {
+            border: none;
+            outline: none;
+            padding: 10px;
+            width: 97%;
+            margin: 10px;
+            border-bottom: 2px solid rgb(red, green, blue);
+        }
+
+        button {
+            border: none;
+            width: 100%;
+            padding: 10px;
+            font-size: 20px;
+            color: rgb(36, 36, 36);
+            border-radius: 15px;
+            margin: 20px 0;
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Đăng nhập</h1>
+            <form>
+                <label>Email:</label>
+                <br>
+                <input type="text" placeholder="Email của bạn">
+                <br>
+                <label>Password</label>
+                <br>
+                <input type="password" placeholder="Mật khẩu của bạn">
+                <br>
+                <button type="submit">Đăng nhập</button>
+                <i>(*)Bạn đã có tài khoản?</i>
+            </form>
+    </div>
+</body>
+</html>

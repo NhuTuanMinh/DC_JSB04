@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+body {
+    background: url("https://img.pikbest.com/backgrounds/20180907/mid-autumn-festival-background-design-template_2778084.jpg!sw800");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.big_container {
+    display: flex;
+}
+
+.nav {
+    position: fixed;
+    width: 100px;
+    height: 0vh;
+}
+
+.nav ul {
+    width: 200px;
+}
+
+.main_content {
+    margin-left: 200px
+}
+
+.nav li {
+    padding: 10px;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.test {
+    display: flex;
+}
+
+.noi_dung {
+    background-color: rgba(248, 194, 244, 0.808);
+    margin-right: 20px;
+    border: 2px solid;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 30px 50px 30px 50px;
+}
+
+.noi_dung_gioi_thieu p {
+    padding: 0px 50px;
+    font-family: 'IBM Plex Sans', sans-serif
+}
+
+#nguon_goc .anh1 {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+#nguon_goc .anh2 {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.danh_sach_mon_an {
+    display: flex;
+    justify-content: center;
+
+}
+
+.danh_sach_mon_an .item {
+    margin: 20px;
+    width: 33%;
+}
+
+.danh_sach_mon_an .item img {
+    width: 300px;
+    height: 280px;
+}
+
+#phong_tuc p {
+    width: 800px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.phong_tuc_img {
+    text-align: left;
+}
+
+.phong_tuc_img img {
+    width: 300px;
+    height: auto;
+}
+#y_nghia p{
+padding-right: 30px;
+
+}
